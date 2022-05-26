@@ -8,7 +8,7 @@ public class PerfectNumber {
         System.out.println("Enter the number");
         int inputNumber = sc.nextInt();
         int sum = 0;
-        for(int i = 1; i <= inputNumber / 2; i++) {
+        for(int i = 1; i <= (inputNumber / 2); i++) {
             if((inputNumber % i) == 0) {
                 sum = sum + i;
             }
