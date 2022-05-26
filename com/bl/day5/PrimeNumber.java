@@ -6,18 +6,18 @@ public class PrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
-        int number = sc.nextInt();
+        int inputNumber = sc.nextInt();
         boolean flag = true;
-        for (int i = 2; i <= number/2; i++) {
-            if ((number % i) == 0) {
+        for (int i = 2; i <= (inputNumber / 2); i++) {
+            if ((inputNumber % i) == 0) {
                 flag = false;
             }
         }
         if (flag) {
-            System.out.println("The number" + " " + number + " " + "is prime number");
+            System.out.println("The number" + " " + inputNumber + " " + "is prime number");
         }
         else {
-            System.out.println("The number" + " " + number + " " + "is not prime number");
+            System.out.println("The number" + " " + inputNumber + " " + "is not prime number");
         }
     }
 }
