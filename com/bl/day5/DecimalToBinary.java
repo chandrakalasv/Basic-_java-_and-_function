@@ -1,7 +1,7 @@
 package com.bl.day5;
 
 import java.util.Scanner;
-public class DecimalToBinary {
+public class deDecimalToBinary {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Decimal number: ");
